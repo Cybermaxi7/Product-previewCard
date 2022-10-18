@@ -129,7 +129,7 @@ p {
 
   .img__container {
     width: 100%;
-    height: 42vh;
+    height: 32%;
   }
 
   .img__container img {
@@ -139,7 +139,7 @@ p {
   }
   .body__text {
     width: 100%;
-    height: 58vh;
+    height: 68%;
   }
   .heading {
     font-size: 1.9rem;
