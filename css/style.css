@@ -1,0 +1,152 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /*primary colors*/
+  --color-primary1: hsl(158, 36%, 37%);
+  --color-primary2: hsl(30, 38%, 92%);
+  --color-primary3: hsl(158, 38%, 21%);
+
+  /* Neutral Colors */
+  --color-neutral1: hsl(212, 21%, 14%);
+  --color-neutral2: hsl(228, 12%, 48%);
+  --color-white: hsl(0, 0%, 100%);
+}
+
+body {
+  font-size: 14px;
+  background-color: var(--color-primary2);
+}
+p {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30rem;
+  background-color: var(--color-white);
+  display: flex;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.img__container {
+  width: 50%;
+}
+
+.img__container img {
+  width: 100%;
+  height: 100%;
+}
+
+.body__text {
+  padding: 29px;
+  width: 50%;
+}
+
+.perfume {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: var(--color-neutral2);
+  margin-bottom: 1.1rem;
+  font-weight: 500;
+}
+
+.heading {
+  font-family: "Fraunces", serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1.1rem;
+}
+
+.description {
+  font-weight: 500;
+  color: var(--color-neutral2);
+  margin-bottom: 1rem;
+  word-spacing: 1px;
+  font-size: 0.7rem;
+}
+.price {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.3rem;
+}
+
+.price__new {
+  font-family: "Fraunces", sans-serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: var(--color-primary1);
+}
+.price__old {
+  margin-left: 1rem;
+  color: var(--color-neutral2);
+  font-size: 0.8rem;
+  text-decoration: line-through;
+}
+
+.btn:link,
+.btn:visited {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: inherit;
+  padding: 0.6rem 2rem;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--color-primary1);
+  color: var(--color-white);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-weight: 700;
+  transition: all 0.3s;
+}
+.btn:hover,
+.btn:active {
+  background-color: var(--color-primary3);
+}
+
+@media screen and (max-width: 376px) {
+  .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 90vh;
+  }
+
+  .img__container {
+    width: 100%;
+    height: 42%;
+  }
+
+  .img__container img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .body__text {
+    width: 100%;
+    height: 58%;
+  }
+  .heading {
+    font-size: 1.9rem;
+    margin-bottom: 1rem;
+  }
+  .description {
+    font-size: 0.8rem;
+  }
+  
+}
