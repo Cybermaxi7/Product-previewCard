@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/product-preview-card-component-wit-html-and-css-gT1yMrYxrw)
-- Live Site URL: [Add live site URL here](https://cybermaxi7.github.io/Product-previewCard/)
+- Solution URL: [Click here](https://www.frontendmentor.io/solutions/product-preview-card-component-wit-html-and-css-gT1yMrYxrw)
+- Live Site URL: [Click here](https://cybermaxi7.github.io/Product-previewCard/)
 
 ### Built with
 
