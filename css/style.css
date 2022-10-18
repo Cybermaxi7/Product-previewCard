@@ -125,7 +125,6 @@ p {
     flex-direction: column;
     width: 90%;
     height: 90%;
-    background-color: red;
   }
 
   .img__container {
@@ -147,6 +146,6 @@ p {
     margin-bottom: 1rem;
   }
   .description {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
 }
